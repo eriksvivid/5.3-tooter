@@ -16,4 +16,6 @@ function hello(){
   return 'hello world';
 }
 
+$(document).on('create:post', [{title: "Cool", body: "Cool"}])
+
 module.exports = {"hello": hello};

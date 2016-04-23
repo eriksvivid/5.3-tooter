@@ -1,4 +1,6 @@
 var expect = chai.expect;
+var $ = jQuery;
+
 
 require('index');
 
